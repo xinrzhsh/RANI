@@ -5,7 +5,7 @@ software:   ubuntu16.04    theano  python2.7.12   keras   cuda8.0   CuDNN5.1 and
 hardware:   nvida gpus  https://developer.nvidia.com/cuda-gpus  (my gpu is GeForce GTX 1080Ti)
 ## We use Valen's DeepCell code (https://github.com/CovertLab/DeepCell) as base CNN (Single) of regionally adaptive nuclei identification.
 
-## The main idea is shown as:
+## RANI aim for segmenting clumped nuclei by cascading several actively learned models.
 
 
 
